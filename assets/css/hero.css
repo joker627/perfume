@@ -287,13 +287,13 @@
 .hero-art {
   position: absolute;
   inset: 0 0 0 auto;
-  width: 78%;
+  width: 72%;
   height: 100%;
   max-width: none;
   padding: 0;
   object-fit: cover;
   object-position: center 46%;
-  filter: saturate(1.04) brightness(0.98) contrast(1.04);
+  filter: saturate(1.12) brightness(0.88) contrast(1.08);
   opacity: 0;
   transition: opacity 0.65s ease;
 }

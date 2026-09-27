@@ -255,11 +255,6 @@ body .product-card:focus-within {
   );
 }
 
-.hero-art {
-  width: 72%;
-  filter: saturate(1.12) brightness(0.88) contrast(1.08);
-}
-
 .combo-content {
   text-shadow: 0 1px 12px rgba(0, 0, 0, 0.42);
 }

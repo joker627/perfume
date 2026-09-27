@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="es-CO">
+
+<head>
+  <!-- META -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#181417" />
+  <meta name="description"
+    content="Explora el catálogo completo YC1.1. Filtra nuestras inspiraciones por género, familia olfativa, ocasión y temporada. Envíos a toda Colombia." />
+  <title>Catálogo de fragancias — YC1.1</title>
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/cart.css" />
+</head>
+
+<body id="page-top" class="catalog-page">
+
+  <!-- TOP BAR -->
+  <div class="topline construction-topline" role="status" aria-label="Aviso: sitio en construcción">
+    <span class="notice-status-dot" aria-hidden="true"></span>
+    <strong>SITIO EN CONSTRUCCIÓN</strong>
+    <span>Estamos afinando detalles. Confirma disponibilidad y precios por WhatsApp.</span>
+  </div>
+
+  <!-- HEADER / NAV -->
+  <header class="site-header">
+    <a class="wordmark" href="index.html" aria-label="YC1.1, inicio">
+      YC<span>1.1</span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Navegación principal">
+      <a href="index.html#inicio" data-nav="inicio">Inicio</a>
+      <a href="catalogo.html" data-nav="catalogo">Catálogo</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="header-cta" href="index.html#contacto">
+        HABLEMOS DE AROMAS
+        <img src="assets/svgs/arrow-up-right-acid.svg" class="icon" alt="" aria-hidden="true" />
+      </a>
+      <button id="cart-toggle" class="cart-toggle" aria-label="Abrir carrito">
+        <img src="assets/svgs/cart.svg" class="cart-icon" alt="" aria-hidden="true" />
+        <span id="cart-badge" class="cart-badge" aria-live="polite" aria-atomic="true">0</span>
+      </button>
+    </div>
+
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+      <img src="assets/svgs/menu.svg" class="menu-icon" alt="" aria-hidden="true" />
+    </button>
+  </header>
+
+  <button class="menu-backdrop" type="button" aria-label="Cerrar menú" aria-hidden="true" tabindex="-1"></button>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- CATALOG INTRO -->
+    <section class="catalog-intro">
+      <a class="back-link" href="index.html">
+        <img src="assets/svgs/arrow-left.svg" class="icon" alt="" aria-hidden="true" />
+        VOLVER A YC1.1
+      </a>
+
+      <p class="eyebrow">
+        <span class="eyebrow-dot"></span>
+        PERFUMERÍA YC1.1 / COLECCIÓN COMPLETA
+      </p>
+
+      <div class="catalog-intro-row">
+        <h1>
+          Tu próxima<br />
+          <span>firma olfativa.</span>
+        </h1>
+        <p>
+          Explora por notas, ocasiones y familias. Elige la presentación y
+          consulta disponibilidad directamente con nosotros.
+        </p>
+      </div>
+
+      <div class="catalog-intro-foot">
+        <span id="catalog-total">12 FRAGANCIAS</span>
+        <span>ORDENADAS PARA ENCONTRAR TU AROMA</span>
+      </div>
+    </section>
+
+    <!-- FULL CATALOG -->
+    <section class="full-catalog section-wrap" aria-label="Catálogo de perfumes">
+
+      <!-- Filter toggle (móvil) -->
+      <button class="catalog-filter-toggle" id="catalog-filter-toggle" type="button" aria-expanded="false"
+        aria-controls="catalog-filter-panel">
+        <img src="assets/svgs/filter.svg" alt="" aria-hidden="true" />
+        FILTRAR FRAGANCIAS
+        <span id="filter-toggle-count" aria-hidden="true"></span>
+      </button>
+
+      <!-- FILTER PANEL -->
+      <aside class="filter-panel" id="catalog-filter-panel" aria-label="Filtros del catálogo" inert>
+
+        <div class="filter-panel-heading">
+          <div>
+            <p class="eyebrow">AFINA TU BÚSQUEDA</p>
+            <h2>Filtros <span id="active-filter-count">0</span></h2>
+          </div>
+          <button id="clear-filters" type="button">Limpiar todo</button>
+        </div>
+
+        <label class="catalog-search">
+          <img src="assets/svgs/search.svg" class="icon" alt="" aria-hidden="true" />
+          <input id="catalog-search" type="search" placeholder="Nombre, marca o nota" />
+        </label>
+
+        <div class="filter-fields">
+          <details class="filter-picker">
+            <summary>Género <span id="gender-filter-summary">Todos</span></summary>
+            <div class="filter-picker-options" id="gender-filter"></div>
+          </details>
+
+          <details class="filter-picker">
+            <summary>Familia <span id="family-filter-summary">Todas</span></summary>
+            <div class="filter-picker-options" id="family-filter"></div>
+          </details>
+
+          <details class="filter-picker">
+            <summary>Ocasión <span id="occasion-filter-summary">Cualquiera</span></summary>
+            <div class="filter-picker-options" id="occasion-filter"></div>
+          </details>
+
+          <details class="filter-picker">
+            <summary>Temporada <span id="season-filter-summary">Cualquiera</span></summary>
+            <div class="filter-picker-options" id="season-filter"></div>
+          </details>
+
+          <details class="filter-picker">
+            <summary>Marca <span id="brand-filter-summary">Todas</span></summary>
+            <div class="filter-picker-options" id="brand-filter"></div>
+          </details>
+        </div>
+
+        <div class="filter-aside-note">
+          <span>YC / 01</span>
+          <p>Una fragancia para cada estado de ánimo.</p>
+        </div>
+      </aside>
+
+      <!-- RESULTS AREA -->
+      <div class="catalog-results">
+
+        <div class="results-toolbar">
+          <p id="results-label" aria-live="polite">
+            Cargando fragancias…
+          </p>
+          <label>
+            ORDENAR POR
+            <select id="sort-filter">
+              <option value="featured">Selección YC</option>
+              <option value="price-asc">Precio: menor a mayor</option>
+              <option value="price-desc">Precio: mayor a menor</option>
+              <option value="name">Nombre A—Z</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="active-filters" id="active-filters" aria-live="polite"></div>
+
+        <div class="product-grid" id="catalog-grid"></div>
+
+        <nav class="catalog-pagination" id="catalog-pagination" aria-label="Páginas del catálogo" hidden></nav>
+
+        <p class="empty-state" id="catalog-empty" hidden>
+          No encontramos fragancias con esos filtros. Prueba limpiando alguno.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand-block">
+        <a class="wordmark footer-brand" href="index.html">YC<span>1.1</span></a>
+        <p>Perfumería de autor para dejar una impresión.</p>
+        <div class="footer-map" aria-label="Ubicación de YC1.1 en Valledupar">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28784.065408828996!2d-73.2388023854923!3d10.448868887167842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8ab9e22d9be00f%3A0xe40e048eaa58430!2syc1.1valledupar!5e0!3m2!1ses!2sco!4v1790465099529!5m2!1ses!2sco" title="Mapa de ubicación YC1.1 Valledupar" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+      </div>
+
+      <div class="footer-info">
+        <div class="footer-info-top">
+          <nav class="footer-nav" aria-label="Enlaces del pie de página">
+            <strong>Explora</strong>
+            <a href="index.html#inicio">Inicio</a>
+            <a href="catalogo.html">Catálogo</a>
+            <a href="index.html#contacto">Asesoría</a>
+          </nav>
+
+          <div class="footer-contact">
+            <strong>Estamos en</strong>
+            <span>Colombia · Envíos nacionales</span>
+            <a href="https://wa.me/573122123153" target="_blank" rel="noopener">WhatsApp · Hablemos</a>
+          </div>
+
+          <a href="#page-top" class="back-top">Arriba <img src="assets/svgs/arrow-up.svg" class="icon" alt="" aria-hidden="true" /></a>
+        </div>
+
+        <div class="footer-legal" id="informacion-legal">
+          <div><strong>Términos y condiciones</strong><p>Disponibilidad, presentación, precio y condiciones se confirman antes del despacho.</p></div>
+          <div><strong>Privacidad</strong><p>Usamos tus datos solo para atender consultas, pedidos y entregas.</p></div>
+          <div><strong>Envíos y cambios</strong><p>Consulta cobertura, tiempos, cambios y devoluciones antes de pagar.</p></div>
+          <div><strong>Sobre las fragancias</strong><p>Equivalencias e inspiraciones, sin afiliación oficial a las casas mencionadas.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© YC1.1 2025</span>
+      <span>Compra segura · Atención personalizada</span>
+      <span>Colombia · Perfumería de autor</span>
+    </div>
+  </footer>
+
+  <!-- SHOPPING CART -->
+  <div class="cart-overlay" id="cart-overlay" aria-hidden="true"></div>
+
+  <aside class="cart-panel" id="cart-panel" aria-hidden="true">
+    <div class="cart-header">
+      <h2>Tu Carrito</h2>
+      <div class="cart-header-actions">
+        <button id="clear-cart" type="button" disabled>VACIAR</button>
+        <button id="cart-close" aria-label="Cerrar carrito">
+          <img src="assets/svgs/close.svg" class="cart-close-icon" alt="" aria-hidden="true" />
+        </button>
+      </div>
+    </div>
+
+    <div class="cart-items" id="cart-items">
+      <!-- Los items del carrito se inyectan aquí -->
+      <div class="cart-empty-message">Tu carrito está vacío</div>
+    </div>
+
+    <div class="cart-footer">
+      <div class="cart-total">
+        <span>Total:</span>
+        <strong id="cart-total-price">$0</strong>
+      </div>
+      <button class="button button-primary" id="checkout-button" aria-label="Finalizar compra y ver total">
+        FINALIZAR COMPRA
+      </button>
+    </div>
+  </aside>
+
+  <!-- SCRIPTS -->
+  <script type="module" src="assets/js/cart.js"></script>
+  <script type="module" src="assets/js/catalog.js"></script>
+</body>
+
+</html>

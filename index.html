@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="es-CO">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#181417" />
+  <meta name="description"
+    content="YC1.1 — perfumería de autor en Colombia. Equivalencias e inspiraciones olfativas. Envíos nacionales. Asesoría personalizada por WhatsApp." />
+  <title>YC1.1 — Perfumería de autor · Scent Objects</title>
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/cart.css" />
+
+  <!-- FAVICON -->
+  <link rel="icon" href="assets/images/favicon.png" type="image/png" />
+</head>
+
+<body id="page-top">
+
+  <!-- TOP BAR -->
+
+  <div class="topline construction-topline" role="status" aria-label="Aviso: sitio en construcción">
+    <span class="notice-status-dot" aria-hidden="true"></span>
+    <strong>SITIO EN CONSTRUCCIÓN</strong>
+    <span>Estamos afinando detalles. Confirma disponibilidad y precios por WhatsApp.</span>
+  </div>
+
+  <!-- HEADER / NAV -->
+  <header class="site-header" id="site-header">
+    <a class="wordmark" href="#inicio" aria-label="YC1.1, inicio">
+      YC<span>1.1</span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Navegación principal">
+      <a href="#inicio" data-nav="inicio">Inicio</a>
+      <a href="catalogo.html" data-nav="catalogo">Catálogo</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="header-cta" href="catalogo.html">
+        VER CATÁLOGO
+      </a>
+      <button id="cart-toggle" class="cart-toggle" aria-label="Abrir carrito">
+        <img src="assets/svgs/cart.svg" class="cart-icon" alt="" aria-hidden="true" />
+        <span id="cart-badge" class="cart-badge" aria-live="polite" aria-atomic="true">0</span>
+      </button>
+    </div>
+
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+      <img src="assets/svgs/menu.svg" class="menu-icon" alt="" aria-hidden="true" />
+    </button>
+  </header>
+
+  <button class="menu-backdrop" type="button" aria-label="Cerrar menú" aria-hidden="true" tabindex="-1"></button>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <div class="hero-detail" id="hero-detail" aria-live="polite"></div>
+        </div>
+      </div>
+
+      <div class="hero-stage">
+        <div class="hero-art-stage">
+          <img class="hero-art active" id="hero-art" src="assets/images/products/dior-sauvage.webp" alt="Fragancia destacada de YC1.1" />
+          <img class="hero-art" id="hero-art-alt" src="assets/images/products/dior-sauvage.webp" alt="" aria-hidden="true" />
+        </div>
+
+        <!-- COMBO SLIDER -->
+        <section class="combo-slider" id="combo-slider" aria-label="Combos destacados"
+          aria-roledescription="carrusel" hidden>
+          <div class="combo-artwork" id="combo-artwork" aria-hidden="true"></div>
+
+          <div class="combo-content" aria-live="off">
+            <div class="combo-topline">
+              <span>COMBO</span>
+              <span id="combo-step">01 / 03</span>
+            </div>
+
+            <div class="combo-summary">
+              <span class="combo-tag" id="combo-tag">PRECIO ESPECIAL</span>
+              <h2 id="combo-name">Dúo fresco</h2>
+              <p class="combo-products" id="combo-products"></p>
+            </div>
+
+            <div class="combo-price-line">
+              <strong id="combo-price"></strong>
+              <del id="combo-was-price"></del>
+              <span id="combo-savings"></span>
+            </div>
+
+            <div class="combo-bottom">
+              <a class="combo-order" id="combo-order"
+                href="https://wa.me/573122123153?text=Hola%2C%20YC1.1.%20Quiero%20pedir%20este%20combo%3A%0A%0A%2ACombo%20destacado%2A%0A%0APor%20favor%2C%20confirmen%20disponibilidad%20y%20precio."
+                target="_blank" rel="noopener">
+                PEDIR ESTE COMBO
+                <img src="assets/svgs/arrow-up-right.svg" alt="" class="icon" width="14" height="14" />
+              </a>
+
+              <div class="combo-controls">
+                <button class="combo-nav combo-prev" type="button" aria-label="Combo anterior">
+                  <img src="assets/svgs/arrow-left.svg" alt="" aria-hidden="true" />
+                </button>
+                <div class="combo-dots" id="combo-dots" aria-label="Elegir combo"></div>
+                <button class="combo-nav combo-next" type="button" aria-label="Siguiente combo">
+                  <img src="assets/svgs/arrow-right.svg" alt="" aria-hidden="true" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- MANIFESTO STRIP -->
+    <section class="manifesto-strip" aria-label="Manifiesto YC1.1">
+      <span>NO SIGAS EL RASTRO.</span>
+      <span class="strip-mark"><img src="assets/svgs/sparkle.svg" alt="" aria-hidden="true" /></span>
+      <span>DÉJALO.</span>
+      <span class="strip-index">YC1.1 / 2025</span>
+    </section>
+
+    <!-- TRUST BADGES -->
+    <section class="trust-bar" id="como-funciona">
+      <div class="trust-item">
+        <span class="trust-icon"><img src="assets/svgs/shield-check.svg" alt="" aria-hidden="true" /></span>
+        <div>
+          <h3>Inspiraciones olfativas</h3>
+          <p>Equivalencias inspiradas en perfiles olfativos reconocibles, sin afiliación oficial.</p>
+        </div>
+      </div>
+
+      <div class="trust-item">
+        <span class="trust-icon"><img src="assets/svgs/package.svg" alt="" aria-hidden="true" /></span>
+        <div>
+          <h3>Envío nacional</h3>
+          <p>Entrega segura a cualquier ciudad de Colombia en 2-5 días hábiles.</p>
+        </div>
+      </div>
+
+      <div class="trust-item">
+        <span class="trust-icon"><img src="assets/svgs/message-circle.svg" alt="" aria-hidden="true" /></span>
+        <div>
+          <h3>Asesoría personal</h3>
+          <p>Te ayudamos a elegir tu fragancia ideal por WhatsApp, sin compromiso.</p>
+        </div>
+      </div>
+
+      <div class="trust-item">
+        <span class="trust-icon"><img src="assets/svgs/credit-card.svg" alt="" aria-hidden="true" /></span>
+        <div>
+          <h3>Pago seguro</h3>
+          <p>Múltiples métodos de pago: transferencia, Nequi, Daviplata y más.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATALOG SELECTION -->
+    <section class="catalog section-wrap" id="catalogo">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">01 / SELECCIÓN YC1.1</p>
+          <h2>
+            Encuentra tu<br />
+            <span>frecuencia.</span>
+          </h2>
+        </div>
+        <p class="section-intro">
+          Doce composiciones. Doce maneras de entrar en una habitación y hacer
+          que te recuerden.
+        </p>
+      </div>
+
+      <div class="home-feature-count">
+        <span>
+          <b id="home-count">—</b> FRAGANCIAS EN LA COLECCIÓN
+        </span>
+        <a href="catalogo.html">
+          VER TODOS LOS AROMAS
+          <img src="assets/svgs/arrow-up-right.svg" class="icon" alt="" aria-hidden="true" />
+        </a>
+      </div>
+
+      <div class="product-grid" id="product-grid"></div>
+
+      <div class="home-catalog-link">
+        <a class="button button-primary" href="catalogo.html">
+          EXPLORAR CATÁLOGO COMPLETO
+          <img src="assets/svgs/arrow-up-right.svg" alt="" class="icon" />
+        </a>
+      </div>
+    </section>
+
+    <!-- EDITORIAL / MANIFESTO -->
+    <section class="editorial" id="seleccion">
+      <div class="editorial-visual">
+        <img src="assets/images/jean-paul.webp" alt="Composición gráfica de YC1.1: vidrio, luz y materia" />
+        <span class="editorial-caption">MATERIA / LUZ / MEMORIA</span>
+      </div>
+
+      <div class="editorial-copy">
+        <p class="eyebrow">02 / UNA IDEA DE PERFUMERÍA</p>
+        <h2>
+          El perfume es<br />
+          parte de tu <span>presencia.</span>
+        </h2>
+        <p>
+          No se ve. Pero cambia cómo entras, cómo te mueves y cómo te
+          recuerdan. YC1.1 reúne fragancias que convierten ese gesto invisible
+          en algo profundamente tuyo.
+        </p>
+        <a class="text-link" href="#catalogo">
+          EXPLORA LA COLECCIÓN
+          <img src="assets/svgs/arrow-up-right.svg" alt="" class="icon" />
+        </a>
+        <div class="editorial-sign">
+          YC1.1 <span>SCENT OBJECTS · EST. 2025</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- VALUES / LA CASA -->
+    <section class="values section-wrap" id="nosotros">
+      <div class="value-intro">
+        <p class="eyebrow">03 / LA CASA</p>
+        <h2>
+          Elegir con<br />
+          <span>intención.</span>
+        </h2>
+      </div>
+
+      <article>
+        <span class="value-number">01</span>
+        <h3>La selección importa</h3>
+        <p>
+          Una colección curada para distintos estados de ánimo, estilos y
+          momentos. Solo fragancias que vale la pena llevar.
+        </p>
+      </article>
+
+      <article>
+        <span class="value-number">02</span>
+        <h3>El detalle también</h3>
+        <p>
+          Te guiamos para que encuentres el aroma que se siente como propio.
+          Cada recomendación es personalizada.
+        </p>
+      </article>
+
+      <article>
+        <span class="value-number">03</span>
+        <h3>Directo y personal</h3>
+        <p>
+          Resuelve dudas y pide tu fragancia conversando con nosotros. Sin
+          intermediarios, sin esperas innecesarias.
+        </p>
+      </article>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="how-it-works section-wrap">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">04 / PROCESO</p>
+          <h2>
+            Así de<br />
+            <span>simple.</span>
+          </h2>
+        </div>
+        <p class="section-intro">
+          De la pantalla a tu puerta en tres pasos. Sin complicaciones.
+        </p>
+      </div>
+
+      <div class="steps-grid">
+        <article class="step-card">
+          <span class="step-number">01</span>
+          <div class="step-icon"><img src="assets/svgs/search.svg" alt="" aria-hidden="true" /></div>
+          <h3>Explora y elige</h3>
+          <p>
+            Navega nuestro catálogo, filtra por notas, género o momento. Lee
+            las descripciones y encuentra tu match perfecto.
+          </p>
+        </article>
+
+        <article class="step-card">
+          <span class="step-number">02</span>
+          <div class="step-icon"><img src="assets/svgs/message-circle.svg" alt="" aria-hidden="true" /></div>
+          <h3>Escríbenos</h3>
+          <p>
+            Cuéntanos tu elección por WhatsApp. Confirmamos disponibilidad,
+            resolvemos dudas y ajustamos tu pedido.
+          </p>
+        </article>
+
+        <article class="step-card">
+          <span class="step-number">03</span>
+          <div class="step-icon"><img src="assets/svgs/package.svg" alt="" aria-hidden="true" /></div>
+          <h3>Recíbelo en casa</h3>
+          <p>
+            Envío seguro a toda Colombia. Tu fragancia llega empacada con
+            cuidado, lista para dejar tu huella.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT CTA -->
+    <section class="contact" id="contacto">
+      <div class="contact-orbit">YC / 1.1</div>
+
+      <p class="eyebrow">05 / TU PRÓXIMO AROMA</p>
+      <h2>
+        Hablemos de<br />
+        <span>fragancias.</span>
+      </h2>
+      <p>
+        Cuéntanos qué te gusta. Te ayudamos a encontrar tu próxima firma
+        olfativa. Asesoría sin compromiso.
+      </p>
+
+      <a class="button button-light" id="contact-link" href="#">
+        INICIAR CONVERSACIÓN
+        <img src="assets/svgs/arrow-up-right-acid.svg" class="icon" alt="" aria-hidden="true" />
+      </a>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand-block">
+        <a class="wordmark footer-brand" href="#inicio">YC<span>1.1</span></a>
+        <p>Perfumería de autor para dejar una impresión.</p>
+        <div class="footer-map" aria-label="Ubicación de YC1.1 en Valledupar">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28784.065408828996!2d-73.2388023854923!3d10.448868887167842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8ab9e22d9be00f%3A0xe40e048eaa58430!2syc1.1valledupar!5e0!3m2!1ses!2sco!4v1790465099529!5m2!1ses!2sco" title="Mapa de ubicación YC1.1 Valledupar" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+      </div>
+
+      <div class="footer-info">
+        <div class="footer-info-top">
+          <nav class="footer-nav" aria-label="Enlaces del pie de página">
+            <strong>Explora</strong>
+            <a href="#inicio">Inicio</a>
+            <a href="catalogo.html">Catálogo</a>
+            <a href="#contacto">Asesoría</a>
+          </nav>
+
+          <div class="footer-contact">
+            <strong>Estamos en</strong>
+            <span>Colombia · Envíos nacionales</span>
+            <a href="https://wa.me/573122123153" target="_blank" rel="noopener">WhatsApp · Hablemos</a>
+          </div>
+
+          <a href="#page-top" class="back-top">Arriba <img src="assets/svgs/arrow-up.svg" class="icon" alt="" aria-hidden="true" /></a>
+        </div>
+
+        <div class="footer-legal" id="informacion-legal">
+          <div><strong>Términos y condiciones</strong><p>Disponibilidad, presentación, precio y condiciones se confirman antes del despacho.</p></div>
+          <div><strong>Privacidad</strong><p>Usamos tus datos solo para atender consultas, pedidos y entregas.</p></div>
+          <div><strong>Envíos y cambios</strong><p>Consulta cobertura, tiempos, cambios y devoluciones antes de pagar.</p></div>
+          <div><strong>Sobre las fragancias</strong><p>Equivalencias e inspiraciones, sin afiliación oficial a las casas mencionadas.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© YC1.1 2025</span>
+      <span>Compra segura · Atención personalizada</span>
+      <span>Colombia · Perfumería de autor</span>
+    </div>
+  </footer>
+
+  <!-- SHOPPING CART -->
+  <div class="cart-overlay" id="cart-overlay" aria-hidden="true"></div>
+
+  <aside class="cart-panel" id="cart-panel" aria-hidden="true">
+    <div class="cart-header">
+      <h2>Tu Carrito</h2>
+      <div class="cart-header-actions">
+        <button id="clear-cart" type="button" disabled>VACIAR</button>
+        <button id="cart-close" aria-label="Cerrar carrito">
+          <img src="assets/svgs/close.svg" class="cart-close-icon" alt="" aria-hidden="true" />
+        </button>
+      </div>
+    </div>
+
+    <div class="cart-items" id="cart-items">
+      <!-- Los items del carrito se inyectan aquí -->
+      <div class="cart-empty-message">Tu carrito está vacío</div>
+    </div>
+
+    <div class="cart-footer">
+      <div class="cart-total">
+        <span>Total:</span>
+        <strong id="cart-total-price">$0</strong>
+      </div>
+      <button class="button button-primary" id="checkout-button" aria-label="Finalizar compra y ver total">
+        FINALIZAR COMPRA
+      </button>
+    </div>
+  </aside>
+
+  <!-- SCRIPTS -->
+  <script type="module" src="assets/js/cart.js"></script>
+  <script type="module" src="assets/js/home.js"></script>
+</body>
+
+</html>

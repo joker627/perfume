@@ -1,0 +1,1073 @@
+{
+  "filters": {
+    "families": [
+      "cítrica",
+      "amaderada",
+      "oriental",
+      "floral",
+      "gourmand",
+      "aromática",
+      "fougère",
+      "chipre"
+    ],
+    "genders": [
+      "el",
+      "ella",
+      "unisex"
+    ],
+    "occasions": [
+      "diario",
+      "oficina",
+      "noche",
+      "cita",
+      "evento",
+      "verano",
+      "invierno"
+    ]
+  },
+  "pagination": {
+    "pageSize": 20
+  },
+  "perfumes": [
+    {
+      "id": "dior-sauvage-edp-100",
+      "sku": "DIO-SAU-EDP-100",
+      "name": "Sauvage",
+      "brand": "Dior",
+      "description": "Un himno a la frescura radical. Bergamota de Calabria envuelta en ambroxan cálido y pimienta de Sichuan.",
+      "gender": "el",
+      "family": "aromática",
+      "subfamily": "fougère amaderada",
+      "notes": {
+        "top": ["bergamota", "pimienta de Sichuan"],
+        "heart": ["lavanda", "pimienta rosa", "nuez moscada"],
+        "base": ["ambroxan", "cedro", "vainilla"]
+      },
+      "performance": {
+        "longevity_hours": 8,
+        "sillage": "fuerte",
+        "projection": "alta"
+      },
+      "occasions": ["diario", "oficina", "noche", "cita"],
+      "seasons": ["primavera", "verano", "otoño", "invierno"],
+      "prices": {
+        "discount": 10,
+        "final": 170100
+      },
+      "sizes": [
+        { "ml": 60,  "price": 149000 },
+        { "ml": 100, "price": 189000 },
+        { "ml": 200, "price": 259000 }
+      ],
+      "images": {
+        "main": "/assets/images/products/dior-sauvage.webp"
+      },
+      "detail": {
+        "wear_line": "Día a noche — Oficina, cita y salidas"
+      },
+      "labels": {
+        "short": "FRESCA & AMADERADA",
+        "tag": "Más vendido"
+      },
+      "ui": {
+        "tint": "#c9d3e0"
+      },
+      "featured": true
+    },
+    {
+      "id": "chanel-bleu-edp-100",
+      "sku": "CHA-BLE-EDP-100",
+      "name": "Bleu de Chanel",
+      "brand": "Chanel",
+      "description": "Elegancia masculina atemporal. Un amaderado aromático con incienso y jengibre que nunca falla.",
+      "gender": "el",
+      "family": "amaderada",
+      "subfamily": "aromática amaderada",
+      "notes": {
+        "top": ["limón", "menta", "pomelo"],
+        "heart": ["jengibre", "nuez moscada", "jazmín"],
+        "base": ["incienso", "cedro", "sándalo", "ámbar"]
+      },
+      "performance": {
+        "longevity_hours": 9,
+        "sillage": "moderado",
+        "projection": "media-alta"
+      },
+      "occasions": ["oficina", "diario", "evento", "noche"],
+      "seasons": ["primavera", "otoño", "invierno"],
+      "prices": {
+        "discount": 0,
+        "final": 199000
+      },
+      "sizes": [
+        { "ml": 50,  "price": 169000 },
+        { "ml": 100, "price": 199000 }
+      ],
+      "images": {
+        "main": "/assets/images/products/chanel-bleu.webp"
+      },
+      "detail": {
+        "wear_line": "Oficina y eventos — Proyección media-alta"
+      },
+      "labels": {
+        "short": "AROMÁTICA & AMADERADA",
+        "tag": "Icónica"
+      },
+      "ui": {
+        "tint": "#b9c6d6"
+      },
+      "featured": true
+    },
+    {
+      "id": "versace-eros-edt-100",
+      "sku": "VER-ERO-EDT-100",
+      "name": "Eros",
+      "brand": "Versace",
+      "description": "Pasión griega embotellada. Menta helada, manzana verde y un fondo dulce de vainilla.",
+      "gender": "el",
+      "family": "fougère",
+      "subfamily": "aromática dulce",
+      "notes": {
+        "top": ["menta", "manzana verde", "limón"],
+        "heart": ["tonka", "geranio", "ambroxan"],
+        "base": ["vainilla", "musgo de roble", "cedro", "vetiver"]
+      },
+      "performance": {
+        "longevity_hours": 7,
+        "sillage": "fuerte",
+        "projection": "alta"
+      },
+      "occasions": ["noche", "cita", "fiesta"],
+      "seasons": ["otoño", "invierno"],
+      "prices": {
+        "discount": 15,
+        "final": 135150
+      },
+      "sizes": [
+        { "ml": 50,  "price": 119000 },
+        { "ml": 100, "price": 159000 },
+        { "ml": 200, "price": 219000 }
+      ],
+      "images": {
+        "main": "/assets/images/products/versace-eros.webp"
+      },
+      "labels": {
+        "short": "FRESCA & DULCE",
+        "tag": "Seductora"
+      },
+      "ui": {
+        "tint": "#cfe0d4"
+      },
+      "featured": true
+    },
+    {
+      "id": "paco-rabanne-1million-edt-100",
+      "sku": "PAC-1MI-EDT-100",
+      "name": "1 Million",
+      "brand": "Paco Rabanne",
+      "description": "El lingote dorado del éxito. Mandarina chispeante, canela especiada y cuero suave.",
+      "gender": "el",
+      "family": "especiada",
+      "subfamily": "cuero especiado",
+      "notes": {
+        "top": ["mandarina", "menta", "pomelo"],
+        "heart": ["canela", "rosa", "especias"],
+        "base": ["cuero", "ámbar", "pachulí"]
+      },
+      "performance": {
+        "longevity_hours": 8,
+        "sillage": "fuerte",
+        "projection": "alta"
+      },
+      "occasions": ["noche", "fiesta", "evento"],
+      "seasons": ["otoño", "invierno"],
+      "prices": {
+        "discount": 0,
+        "final": 149000
+      },
+      "sizes": [
+        { "ml": 50,  "price": 109000 },
+        { "ml": 100, "price": 149000 },
+        { "ml": 200, "price": 209000 }
+      ],
+      "images": {
+        "main": "/assets/images/products/paco-rabanne-1-million.webp"
+      },
+      "labels": {
+        "short": "ESPECIADA & CÁLIDA",
+        "tag": "Nocturna"
+      },
+      "ui": {
+        "tint": "#f0dca8"
+      },
+      "featured": false
+    },
+    {
+      "id": "ch-good-girl-edp-80",
+      "sku": "CHA-GOO-EDP-80",
+      "name": "Good Girl",
+      "brand": "Carolina Herrera",
+      "description": "Femenina, dual y adictiva. Café intenso contra nardo floral y haba tonka cremosa.",
+      "gender": "ella",
+      "family": "gourmand",
+      "subfamily": "floral gourmand",
+      "notes": {
+        "top": ["almendra", "café", "limón"],
+        "heart": ["nardo", "jazmín sambac", "haba tonka"],
+        "base": ["cacao", "vainilla", "pachulí", "cedro"]
+      },
+      "performance": {
+        "longevity_hours": 8,
+        "sillage": "fuerte",
+        "projection": "alta"
+      },
+      "occasions": ["noche", "cita", "evento"],
+      "seasons": ["otoño", "invierno"],
+      "prices": {
+        "discount": 5,
+        "final": 170050
+      },
+      "sizes": [
+        { "ml": 50,  "price": 149000 },
+        { "ml": 80,  "price": 179000 },
+        { "ml": 150, "price": 249000 }
+      ],
+      "images": {
+        "main": "/assets/images/products/carolina-herrera-good-girl.webp"
+      },
+      "labels": {
+        "short": "GOURMAND & FLORAL",
+        "tag": "Ícono"
+      },
+      "ui": {
+        "tint": "#d6c8d8"
+      },
+      "featured": true
+    },
+    {
+      "id": "lancome-la-vie-est-belle-edp-100",
+      "sku": "LAN-LVE-EDP-100",
+      "name": "La Vie Est Belle",
+      "brand": "Lancôme",
+      "description": "El perfume de la felicidad. Iris noble, praliné y vainilla en un abrazo dulce.",
+      "gender": "ella",
+      "family": "gourmand",
+      "subfamily": "floral frutal gourmand",
+      "notes": {
+        "top": ["grosella negra", "pera"],
+        "heart": ["iris", "jazmín", "flor de naranjo"],
+        "base": ["praliné", "vainilla", "pachulí", "haba tonka"]
+      },
+      "performance": {
+        "longevity_hours": 8,
+        "sillage": "fuerte",
+        "projection": "alta"
+      },
+      "occasions": ["diario", "cita", "oficina"],
+      "seasons": ["otoño", "invierno", "primavera"],
+      "prices": {
+        "discount": 10,
+        "final": 152100
+      },
+      "sizes": [
+        { "ml": 30,  "price": 119000 },
+        { "ml": 50,  "price": 139000 },
+        { "ml": 100, "price": 169000 }
+      ],
+      "images": {
+        "main": "/assets/images/products/lancome-la-vie-est-belle.webp"
+      },
+      "labels": {
+        "short": "DULCE & FLORAL",
+        "tag": "Favorita"
+      },
+      "ui": {
+        "tint": "#e8d3dd"
+      },
+      "featured": true
+    },
+    {
+      "id": "ysl-black-opium-edp-90",
+      "sku": "YSL-BLA-EDP-90",
+      "name": "Black Opium",
+      "brand": "Yves Saint Laurent",
+      "description": "Adicción embotellada. Café negro, vainilla y flor de naranjo para una estela hipnótica.",
+      "gender": "ella",
+      "family": "oriental",
+      "subfamily": "gourmand oriental",
+      "notes": {
+        "top": ["pera", "pimienta rosa", "flor de naranjo"],
+        "heart": ["café", "jazmín", "regaliz"],
+        "base": ["vainilla", "pachulí", "cedro", "cacao"]
+      },
+      "performance": {
+        "longevity_hours": 9,
+        "sillage": "fuerte",
+        "projection": "alta"
+      },
+      "occasions": ["noche", "cita", "fiesta"],
+      "seasons": ["otoño", "invierno"],
+      "prices": {
+        "discount": 0,
+        "final": 175000
+      },
+      "sizes": [
+        { "ml": 30, "price": 129000 },
+        { "ml": 50, "price": 149000 },
+        { "ml": 90, "price": 175000 }
+      ],
+      "images": {
+        "main": "/assets/images/products/ysl-black-opium.webp"
+      },
+      "detail": {
+        "wear_line": "Noche y salidas — Estela fuerte y adictiva"
+      },
+      "labels": {
+        "short": "ORIENTAL & GOURMAND",
+        "tag": "Adictiva"
+      },
+      "ui": {
+        "tint": "#d9c9c0"
+      },
+      "featured": true
+    },
+    {
+      "id": "chanel-no5-parfum-100",
+      "sku": "CHA-N5-PAR-100",
+      "name": "N°5",
+      "brand": "Chanel",
+      "description": "El perfume más icónico del siglo XX. Aldehídos florales atemporales.",
+      "gender": "ella",
+      "family": "floral",
+      "subfamily": "floral aldehídico",
+      "notes": {
+        "top": ["aldehídos", "neroli", "ylang-ylang"],
+        "heart": ["jazmín", "rosa", "iris"],
+        "base": ["sándalo", "vetiver", "vainilla", "almizcle"]
+      },
+      "performance": {
+        "longevity_hours": 10,
+        "sillage": "moderado",
+        "projection": "media"
+      },
+      "occasions": ["evento", "oficina"],
+      "seasons": ["primavera", "otoño", "invierno"],
+      "prices": {
+        "discount": 0,
+        "final": 249000
+      },
+      "sizes": [
+        { "ml": 35,  "price": 189000 },
+        { "ml": 100, "price": 249000 }
+      ],
+      "images": {
+        "main": "/assets/images/products/chanel-no5.webp"
+      },
+      "labels": {
+        "short": "FLORAL & ATEMPORAL",
+        "tag": "Clásico"
+      },
+      "ui": {
+        "tint": "#efe3c8"
+      },
+      "featured": false
+    },
+    {
+      "id": "mfk-baccarat-rouge-540-edp-70",
+      "sku": "MFK-BAC-EDP-70",
+      "name": "Baccarat Rouge 540",
+      "brand": "Maison Francis Kurkdjian",
+      "description": "Un halo mineral y luminoso. Azafrán, jazmín y ámbar gris en perfecta armonía.",
+      "gender": "unisex",
+      "family": "ámbar",
+      "subfamily": "floral ambarado",
+      "notes": {
+        "top": ["azafrán", "jazmín"],
+        "heart": ["ámbar gris", "resina de abeto"],
+        "base": ["cedro", "almizcle", "notas minerales"]
+      },
+      "performance": {
+        "longevity_hours": 9,
+        "sillage": "fuerte",
+        "projection": "alta"
+      },
+      "occasions": ["evento", "noche", "cita"],
+      "seasons": ["otoño", "invierno", "primavera"],
+      "prices": {
+        "discount": 0,
+        "final": 289000
+      },
+      "sizes": [
+        { "ml": 35,  "price": 219000 },
+        { "ml": 70,  "price": 289000 },
+        { "ml": 200, "price": 549000 }
+      ],
+      "images": {
+        "main": "/assets/images/products/mfk-baccarat-rouge-540.webp"
+      },
+      "labels": {
+        "short": "ÁMBAR & FLORAL",
+        "tag": "Viral"
+      },
+      "ui": {
+        "tint": "#f0d3b0"
+      },
+      "featured": true
+    },
+    {
+      "id": "lelabo-santal33-edp-50",
+      "sku": "LEL-SAN-EDP-50",
+      "name": "Santal 33",
+      "brand": "Le Labo",
+      "description": "El sándalo neoyorquino por excelencia. Cuero, cardamomo y maderas ahumadas.",
+      "gender": "unisex",
+      "family": "amaderada",
+      "subfamily": "amaderada especiada",
+      "notes": {
+        "top": ["cardamomo", "violeta", "iris"],
+        "heart": ["sándalo", "papiro", "ambroxan"],
+        "base": ["cuero", "cedro", "almizcle"]
+      },
+      "performance": {
+        "longevity_hours": 7,
+        "sillage": "moderado",
+        "projection": "media"
+      },
+      "occasions": ["diario", "oficina", "evento"],
+      "seasons": ["otoño", "invierno"],
+      "prices": {
+        "discount": 0,
+        "final": 279000
+      },
+      "sizes": [
+        { "ml": 15,  "price": 129000 },
+        { "ml": 50,  "price": 279000 },
+        { "ml": 100, "price": 429000 }
+      ],
+      "images": {
+        "main": "/assets/images/products/le-labo-santal-33.webp"
+      },
+      "labels": {
+        "short": "AMADERADA & AHUMADA",
+        "tag": "De culto"
+      },
+      "ui": {
+        "tint": "#ddd6c4"
+      },
+      "featured": true
+    },
+    {
+      "id": "ck-one-edt-200",
+      "sku": "CK-ONE-EDT-200",
+      "name": "CK One",
+      "brand": "Calvin Klein",
+      "description": "El unisex que revolucionó los 90. Fresco, limpio y universal.",
+      "gender": "unisex",
+      "family": "cítrica",
+      "subfamily": "cítrica aromática",
+      "notes": {
+        "top": ["piña", "mandarina", "papaya", "bergamota"],
+        "heart": ["jazmín", "violeta", "nuez moscada"],
+        "base": ["almizcle", "ámbar", "té verde"]
+      },
+      "performance": {
+        "longevity_hours": 5,
+        "sillage": "ligero",
+        "projection": "baja"
+      },
+      "occasions": ["diario", "oficina", "verano"],
+      "seasons": ["primavera", "verano"],
+      "prices": {
+        "discount": 20,
+        "final": 95200
+      },
+      "sizes": [
+        { "ml": 100, "price": 99000 },
+        { "ml": 200, "price": 119000 }
+      ],
+      "images": {
+        "main": "/assets/images/products/calvin-klein-ck-one.webp"
+      },
+      "labels": {
+        "short": "CÍTRICA & LIMPIA",
+        "tag": "Unisex"
+      },
+      "ui": {
+        "tint": "#dfe6d9"
+      },
+      "featured": false
+    },
+    {
+      "id": "dior-jadore-edp-100",
+      "sku": "DIO-JAD-EDP-100",
+      "name": "J'adore",
+      "brand": "Dior",
+      "description": "El ramo floral absoluto. Ylang-ylang, jazmín y rosa en su máxima expresión.",
+      "gender": "ella",
+      "family": "floral",
+      "subfamily": "floral frutal",
+      "notes": {
+        "top": ["pera", "melón", "magnolia"],
+        "heart": ["ylang-ylang", "jazmín", "rosa", "tuberosa"],
+        "base": ["almizcle", "vainilla", "cedro"]
+      },
+      "performance": {
+        "longevity_hours": 8,
+        "sillage": "moderado",
+        "projection": "media-alta"
+      },
+      "occasions": ["evento", "oficina", "cita"],
+      "seasons": ["primavera", "verano"],
+      "prices": {
+        "discount": 5,
+        "final": 179550
+      },
+      "sizes": [
+        { "ml": 50,  "price": 159000 },
+        { "ml": 100, "price": 189000 }
+      ],
+      "images": {
+        "main": "/assets/images/products/dior-jadore.webp"
+      },
+      "labels": {
+        "short": "FLORAL & LUMINOSA",
+        "tag": "Elegante"
+      },
+      "ui": {
+        "tint": "#f2e2c6"
+      },
+      "featured": true
+    },
+    {
+      "id": "chanel-coco-mademoiselle-edp-100",
+      "sku": "CHA-COC-EDP-100",
+      "name": "Coco Mademoiselle",
+      "brand": "Chanel",
+      "description": "Una fragancia oriental fresca para la mujer moderna. Naranja vibrante, rosa y jazmín sobre un fondo profundo de pachulí y vainilla.",
+      "gender": "ella",
+      "family": "oriental",
+      "subfamily": "floral amaderado",
+      "notes": {
+        "top": ["naranja", "mandarina", "bergamota"],
+        "heart": ["jazmín", "rosa", "mimosa", "ylang-ylang"],
+        "base": ["pachulí", "vainilla", "almizcle blanco", "vetiver"]
+      },
+      "performance": {
+        "longevity_hours": 9,
+        "sillage": "fuerte",
+        "projection": "alta"
+      },
+      "occasions": ["diario", "oficina", "noche", "cita"],
+      "seasons": ["primavera", "otoño", "invierno"],
+      "prices": {
+        "discount": 0,
+        "final": 239000
+      },
+      "sizes": [
+        { "ml": 35, "price": 189000 },
+        { "ml": 50, "price": 209000 },
+        { "ml": 100, "price": 239000 }
+      ],
+      "images": {
+        "main": "/assets/images/products/chanel-coco-mademoiselle.webp"
+      },
+      "labels": {
+        "short": "ORIENTAL & FLORAL",
+        "tag": "Chic"
+      },
+      "ui": {
+        "tint": "#e8d5e0"
+      },
+      "featured": true
+    },
+    {
+      "id": "ysl-libre-edp-90",
+      "sku": "YSL-LIB-EDP-90",
+      "name": "Libre",
+      "brand": "Yves Saint Laurent",
+      "description": "La tensión perfecta entre la frescura de la lavanda francesa y la calidez sensual de la flor de naranjo marroquí.",
+      "gender": "ella",
+      "family": "floral",
+      "subfamily": "floral oriental",
+      "notes": {
+        "top": ["lavanda", "mandarina", "grosella negra"],
+        "heart": ["flor de naranjo", "jazmín", "lavanda"],
+        "base": ["vainilla", "almizcle", "cedro", "ámbar gris"]
+      },
+      "performance": {
+        "longevity_hours": 8,
+        "sillage": "fuerte",
+        "projection": "alta"
+      },
+      "occasions": ["diario", "oficina", "noche", "evento"],
+      "seasons": ["otoño", "invierno", "primavera"],
+      "prices": {
+        "discount": 5,
+        "final": 180500
+      },
+      "sizes": [
+        { "ml": 30, "price": 129000 },
+        { "ml": 50, "price": 159000 },
+        { "ml": 90, "price": 190000 }
+      ],
+      "images": {
+        "main": "/assets/images/products/ysl-libre.webp"
+      },
+      "labels": {
+        "short": "FLORAL & INTENSA",
+        "tag": "Empoderada"
+      },
+      "ui": {
+        "tint": "#d5c8e0"
+      },
+      "featured": true
+    },
+    {
+      "id": "dior-miss-dior-edp-100",
+      "sku": "DIO-MIS-EDP-100",
+      "name": "Miss Dior",
+      "brand": "Dior",
+      "description": "Un ramo floral vibrante. Rosa de Grasse, lirio de los valles y un fondo cremoso de vainilla y sándalo.",
+      "gender": "ella",
+      "family": "floral",
+      "subfamily": "floral gourmand",
+      "notes": {
+        "top": ["lirio de los valles", "peonía", "iris"],
+        "heart": ["rosa centifolia", "jazmín", "rosa de Damasco"],
+        "base": ["vainilla", "haba tonka", "sándalo", "almizcle"]
+      },
+      "performance": {
+        "longevity_hours": 7,
+        "sillage": "moderado",
+        "projection": "media-alta"
+      },
+      "occasions": ["diario", "cita", "oficina"],
+      "seasons": ["primavera", "verano", "otoño"],
+      "prices": {
+        "discount": 0,
+        "final": 199000
+      },
+      "sizes": [
+        { "ml": 30, "price": 139000 },
+        { "ml": 50, "price": 169000 },
+        { "ml": 100, "price": 199000 }
+      ],
+      "images": {
+        "main": "/assets/images/products/dior-miss-dior.webp"
+      },
+      "labels": {
+        "short": "FLORAL & ROMÁNTICA",
+        "tag": "Romántica"
+      },
+      "ui": {
+        "tint": "#f0dce0"
+      },
+      "featured": true
+    },
+    {
+      "id": "prada-paradoxe-edp-90",
+      "sku": "PRA-PAR-EDP-90",
+      "name": "Paradoxe",
+      "brand": "Prada",
+      "description": "Una reinterpretación floral y ambarada. Neroli, jazmín sambac y ámbar sobre un fondo de almizcle blanco.",
+      "gender": "ella",
+      "family": "floral",
+      "subfamily": "floral ambarado",
+      "notes": {
+        "top": ["bergamota de Calabria", "mandarina", "pera"],
+        "heart": ["neroli", "flor de naranjo", "jazmín sambac"],
+        "base": ["ámbar", "vainilla de Madagascar", "almizcle blanco"]
+      },
+      "performance": {
+        "longevity_hours": 8,
+        "sillage": "moderado",
+        "projection": "media-alta"
+      },
+      "occasions": ["diario", "cita", "evento"],
+      "seasons": ["primavera", "verano", "otoño"],
+      "prices": {
+        "discount": 10,
+        "final": 188100
+      },
+      "sizes": [
+        { "ml": 30, "price": 139000 },
+        { "ml": 50, "price": 169000 },
+        { "ml": 90, "price": 209000 }
+      ],
+      "images": {
+        "main": "/assets/images/products/prada-paradoxe.webp"
+      },
+      "labels": {
+        "short": "FLORAL & AMBARADA",
+        "tag": "Moderna"
+      },
+      "ui": {
+        "tint": "#e0d0e8"
+      },
+      "featured": true
+    },
+    {
+      "id": "burberry-her-edp-100",
+      "sku": "BUR-HER-EDP-100",
+      "name": "Her",
+      "brand": "Burberry",
+      "description": "Un gourmand frutal y adictivo. Bayas rojas y negras sobre un corazón floral de jazmín y violeta, con un fondo de ámbar y almizcle.",
+      "gender": "ella",
+      "family": "gourmand",
+      "subfamily": "frutal gourmand",
+      "notes": {
+        "top": ["grosella negra", "arándano", "frambuesa"],
+        "heart": ["jazmín", "violeta"],
+        "base": ["almizcle", "ámbar seco"]
+      },
+      "performance": {
+        "longevity_hours": 7,
+        "sillage": "moderado",
+        "projection": "media"
+      },
+      "occasions": ["diario", "cita", "oficina"],
+      "seasons": ["otoño", "invierno", "primavera"],
+      "prices": {
+        "discount": 5,
+        "final": 170050
+      },
+      "sizes": [
+        { "ml": 50, "price": 159000 },
+        { "ml": 100, "price": 179000 }
+      ],
+      "images": {
+        "main": "/assets/images/products/burberry-her.webp"
+      },
+      "labels": {
+        "short": "FRUTAL & DULCE",
+        "tag": "Adictiva"
+      },
+      "ui": {
+        "tint": "#e8d8d0"
+      },
+      "featured": false
+    },
+    {
+      "id": "armani-acqua-di-gio-profumo-edp-75",
+      "sku": "ARM-ADG-EDP-75",
+      "name": "Acqua di Giò Profumo",
+      "brand": "Giorgio Armani",
+      "description": "La frescura marina elevada a su máxima expresión. Notas acuáticas, romero, salvia e incienso para un aroma profundo y elegante.",
+      "gender": "el",
+      "family": "aromática",
+      "subfamily": "acuática amaderada",
+      "notes": {
+        "top": ["bergamota", "notas marinas", "elemí"],
+        "heart": ["romero", "salvia", "geranio"],
+        "base": ["incienso", "pachulí", "cedro"]
+      },
+      "performance": {
+        "longevity_hours": 8,
+        "sillage": "fuerte",
+        "projection": "alta"
+      },
+      "occasions": ["oficina", "diario", "evento", "noche"],
+      "seasons": ["primavera", "verano", "otoño"],
+      "prices": {
+        "discount": 0,
+        "final": 219000
+      },
+      "sizes": [
+        { "ml": 40, "price": 159000 },
+        { "ml": 75, "price": 219000 },
+        { "ml": 125, "price": 299000 }
+      ],
+      "images": {
+        "main": "/assets/images/products/armani-acqua-di-gio-profumo.webp"
+      },
+      "labels": {
+        "short": "ACUÁTICA & ELEGANTE",
+        "tag": "Clásico"
+      },
+      "ui": {
+        "tint": "#c0d0d8"
+      },
+      "featured": true
+    },
+    {
+      "id": "ysl-y-edp-100",
+      "sku": "YSL-Y-EDP-100",
+      "name": "Y",
+      "brand": "Yves Saint Laurent",
+      "description": "Una fragancia amaderada y aromática. Manzana fresca, salvia y geranio sobre un fondo de maderas sensuales y haba tonka.",
+      "gender": "el",
+      "family": "amaderada",
+      "subfamily": "fougère amaderada",
+      "notes": {
+        "top": ["manzana", "bergamota", "jengibre"],
+        "heart": ["salvia", "geranio", "enebro"],
+        "base": ["maderas sensuales", "haba tonka", "vetiver"]
+      },
+      "performance": {
+        "longevity_hours": 8,
+        "sillage": "moderado",
+        "projection": "media-alta"
+      },
+      "occasions": ["oficina", "diario", "cita", "noche"],
+      "seasons": ["primavera", "otoño", "invierno"],
+      "prices": {
+        "discount": 0,
+        "final": 189000
+      },
+      "sizes": [
+        { "ml": 60, "price": 159000 },
+        { "ml": 100, "price": 189000 }
+      ],
+      "images": {
+        "main": "/assets/images/products/ysl-y.webp"
+      },
+      "labels": {
+        "short": "AMADERADA & FRESCA",
+        "tag": "Versátil"
+      },
+      "ui": {
+        "tint": "#b8c4d0"
+      },
+      "featured": true
+    },
+    {
+      "id": "jpg-le-male-edt-125",
+      "sku": "JPG-LEM-EDT-125",
+      "name": "Le Male",
+      "brand": "Jean Paul Gaultier",
+      "description": "Un clásico oriental fougère. Menta refrescante, lavanda limpia y vainilla sensual. Icónico y seductor.",
+      "gender": "el",
+      "family": "fougère",
+      "subfamily": "oriental fougère",
+      "notes": {
+        "top": ["menta", "lavanda", "bergamota", "artemisa"],
+        "heart": ["canela", "flor de naranjo", "comino"],
+        "base": ["vainilla", "haba tonka", "sándalo", "ámbar"]
+      },
+      "performance": {
+        "longevity_hours": 7,
+        "sillage": "fuerte",
+        "projection": "alta"
+      },
+      "occasions": ["noche", "cita", "fiesta", "evento"],
+      "seasons": ["otoño", "invierno"],
+      "prices": {
+        "discount": 10,
+        "final": 152100
+      },
+      "sizes": [
+        { "ml": 75, "price": 139000 },
+        { "ml": 125, "price": 169000 },
+        { "ml": 200, "price": 219000 }
+      ],
+      "images": {
+        "main": "/assets/images/products/jean-paul-gaultier-le-male.webp"
+      },
+      "labels": {
+        "short": "ORIENTAL & SEDUCTORA",
+        "tag": "Icónico"
+      },
+      "ui": {
+        "tint": "#d0c8b8"
+      },
+      "featured": true
+    },
+    {
+      "id": "azzaro-chrome-edt-100",
+      "sku": "AZZ-CHR-EDT-100",
+      "name": "Chrome",
+      "brand": "Azzaro",
+      "description": "Una frescura cítrica y acuática. Bergamota, musgo y notas marinas para un aroma limpio, versátil y universal.",
+      "gender": "el",
+      "family": "cítrica",
+      "subfamily": "acuática cítrica",
+      "notes": {
+        "top": ["bergamota", "naranja amarga", "limón"],
+        "heart": ["romero", "geranio", "notas marinas"],
+        "base": ["musgo", "sándalo", "ámbar", "mate"]
+      },
+      "performance": {
+        "longevity_hours": 6,
+        "sillage": "moderado",
+        "projection": "media"
+      },
+      "occasions": ["diario", "oficina", "verano"],
+      "seasons": ["primavera", "verano"],
+      "prices": {
+        "discount": 15,
+        "final": 109650
+      },
+      "sizes": [
+        { "ml": 50, "price": 99000 },
+        { "ml": 100, "price": 129000 },
+        { "ml": 200, "price": 159000 }
+      ],
+      "images": {
+        "main": "/assets/images/products/azzaro-chrome.webp"
+      },
+      "labels": {
+        "short": "CÍTRICA & ACUÁTICA",
+        "tag": "Diario"
+      },
+      "ui": {
+        "tint": "#c8d8e0"
+      },
+      "featured": false
+    },
+    {
+      "id": "dolce-gabbana-light-blue-edt-100",
+      "sku": "DOL-LB-EDT-100",
+      "name": "Light Blue",
+      "brand": "Dolce & Gabbana",
+      "description": "Un soplo de aire mediterráneo. Limón siciliano, manzana verde y cedro para una frescura luminosa y vibrante.",
+      "gender": "ella",
+      "family": "cítrica",
+      "subfamily": "frutal cítrica",
+      "notes": {
+        "top": ["limón siciliano", "manzana verde", "campanilla"],
+        "heart": ["bambú", "jazmín", "rosa blanca"],
+        "base": ["cedro", "ámbar", "almizcle"]
+      },
+      "performance": {
+        "longevity_hours": 5,
+        "sillage": "ligero",
+        "projection": "baja-media"
+      },
+      "occasions": ["diario", "oficina", "verano"],
+      "seasons": ["primavera", "verano"],
+      "prices": {
+        "discount": 0,
+        "final": 139000
+      },
+      "sizes": [
+        { "ml": 50, "price": 119000 },
+        { "ml": 100, "price": 139000 }
+      ],
+      "images": {
+        "main": "/assets/images/products/dolce-gabbana-light-blue.webp"
+      },
+      "labels": {
+        "short": "CÍTRICA & LUMINOSA",
+        "tag": "Verano"
+      },
+      "ui": {
+        "tint": "#d0e0e8"
+      },
+      "featured": false
+    },
+    {
+      "id": "montblanc-explorer-edp-100",
+      "sku": "MON-EXP-EDP-100",
+      "name": "Explorer",
+      "brand": "Montblanc",
+      "description": "Una fragancia amaderada y aromática para el aventurero moderno. Bergamota, vetiver y pachulí en perfecta armonía.",
+      "gender": "el",
+      "family": "amaderada",
+      "subfamily": "amaderada aromática",
+      "notes": {
+        "top": ["bergamota", "pomelo", "pimienta rosa"],
+        "heart": ["vetiver", "pachulí", "salvia"],
+        "base": ["ámbar", "almizcle", "cacao"]
+      },
+      "performance": {
+        "longevity_hours": 7,
+        "sillage": "moderado",
+        "projection": "media-alta"
+      },
+      "occasions": ["diario", "oficina", "evento"],
+      "seasons": ["otoño", "invierno", "primavera"],
+      "prices": {
+        "discount": 10,
+        "final": 143100
+      },
+      "sizes": [
+        { "ml": 60, "price": 129000 },
+        { "ml": 100, "price": 159000 }
+      ],
+      "images": {
+        "main": "/assets/images/products/montblanc-explorer.webp"
+      },
+      "labels": {
+        "short": "AMADERADA & AROMÁTICA",
+        "tag": "Aventurera"
+      },
+      "ui": {
+        "tint": "#c8c0b0"
+      },
+      "featured": true
+    },
+    {
+      "id": "creed-aventus-edp-100",
+      "sku": "CRE-AVE-EDP-100",
+      "name": "Aventus",
+      "brand": "Creed",
+      "description": "El rey de las fragancias nicho. Piña, abedul ahumado y almizcle para un aroma frutal, amaderado y extraordinariamente masculino.",
+      "gender": "el",
+      "family": "frutal",
+      "subfamily": "frutal amaderado",
+      "notes": {
+        "top": ["piña", "bergamota", "manzana negra"],
+        "heart": ["abedul", "pachulí", "rosa"],
+        "base": ["almizcle", "ámbar gris", "vainilla"]
+      },
+      "performance": {
+        "longevity_hours": 10,
+        "sillage": "fuerte",
+        "projection": "alta"
+      },
+      "occasions": ["evento", "noche", "oficina", "cita"],
+      "seasons": ["primavera", "verano", "otoño", "invierno"],
+      "prices": {
+        "discount": 0,
+        "final": 359000
+      },
+      "sizes": [
+        { "ml": 50, "price": 299000 },
+        { "ml": 100, "price": 359000 }
+      ],
+      "images": {
+        "main": "/assets/images/products/creed-aventus.webp"
+      },
+      "labels": {
+        "short": "FRUTAL & AMADERADA",
+        "tag": "Lujo"
+      },
+      "ui": {
+        "tint": "#e0d8c8"
+      },
+      "featured": true
+    }
+  ],
+  "combos": [
+    {
+      "name": "Dúo fresco",
+      "tag": "COMBO TOP",
+      "color": "#A8C4D8",
+      "price": 189900,
+      "products": [
+        { "id": "dior-sauvage-edp-100", "ml": 60 },
+        { "id": "ck-one-edt-200", "ml": 100 }
+      ]
+    },
+    {
+      "name": "Dúo floral",
+      "tag": "PRECIO ESPECIAL",
+      "color": "#D8A8BC",
+      "price": 229900,
+      "products": [
+        { "id": "lancome-la-vie-est-belle-edp-100", "ml": 30 },
+        { "id": "dior-jadore-edp-100", "ml": 50 }
+      ]
+    },
+    {
+      "name": "Dúo de noche",
+      "tag": "AHORRA EN COMBO",
+      "color": "#D6A65D",
+      "price": 189900,
+      "products": [
+        { "id": "versace-eros-edt-100", "ml": 50 },
+        { "id": "paco-rabanne-1million-edt-100", "ml": 50 }
+      ]
+    }
+  ]
+}

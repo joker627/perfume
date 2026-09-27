@@ -1,10 +1,9 @@
 @import url("./tokens.css");
-@import url("./site.css");
+@import url("./base.css");
 @import url("./home.css");
-@import url("./editorial.css");
 @import url("./catalog.css");
 @import url("./responsive.css");
-@import url("./hero-combos.css");
+@import url("./hero.css");
 
 /* Visual finish: dark editorial palette */
 .site-header {

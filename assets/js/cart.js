@@ -1,6 +1,6 @@
 import { makeWhatsAppLink } from "./shared.js";
 
-export function initCart() {
+function initCart() {
   const cartToggle = document.getElementById("cart-toggle");
   const cartClose = document.getElementById("cart-close");
   const cartPanel = document.getElementById("cart-panel");

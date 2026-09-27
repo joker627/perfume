@@ -1,4 +1,4 @@
-export const WHATSAPP_NUMBER = "573122123153";
+const WHATSAPP_NUMBER = "573122123153";
 
 export const escapeHtml = value => String(value ?? "").replace(/[&<>"]/g, character => ({
   "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;"
@@ -21,20 +21,6 @@ export async function loadCatalog() {
   const data = await response.json();
   if (!Array.isArray(data.perfumes)) throw new Error("El catálogo no incluye la lista de perfumes");
   return data;
-}
-
-export function makeOrderLink(perfume, size) {
-  const amount = salePrice(size.price, perfume);
-  const message = [
-    "Hola, YC1.1. Quiero consultar este perfume:",
-    "",
-    `*${perfume.brand} ${perfume.name}*`,
-    `Presentación: ${size.ml} ml`,
-    `Precio: ${money(amount)}`,
-    "",
-    "¿Me confirman disponibilidad?"
-  ].join("\n");
-  return makeWhatsAppLink(message);
 }
 
 export function makeComboOrderLink(combo, perfumes) {
@@ -95,7 +81,7 @@ function selectedSizeFromCard(card) {
   return { ml: Number(option.dataset.ml), price: Number(option.dataset.price) };
 }
 
-export function addPerfumeToCart(perfume, size) {
+function addPerfumeToCart(perfume, size) {
   if (!perfume || !size) return;
   const image = perfume.images?.main;
   document.dispatchEvent(new CustomEvent("add-to-cart", {

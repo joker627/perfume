@@ -98,21 +98,13 @@ body .product-card:focus-within {
   filter: brightness(0) invert(1);
 }
 
-.catalog,
-.catalog-intro,
-.full-catalog {
-  background: linear-gradient(135deg, #0d0f0e 0%, var(--plum) 48%, #101d20 100%);
-}
-
 .manifesto-strip {
   color: var(--ink);
-  background: linear-gradient(90deg, #3a2027, #5a302d 52%, #26352e);
 }
 
 .trust-bar,
 .how-it-works {
   color: var(--ink);
-  background: linear-gradient(135deg, #050606, var(--petrol) 62%, #0b0c0c);
 }
 
 .trust-item,
@@ -122,8 +114,6 @@ body .product-card:focus-within {
 .step-card:hover,
 .product-card {
   color: var(--ink);
-  background: linear-gradient(145deg, #332431, #172426 72%);
-  border-color: rgba(214, 170, 82, 0.22);
 }
 
 .trust-item p,
@@ -132,6 +122,10 @@ body .product-card:focus-within {
 .section-intro,
 .product-kicker {
   color: var(--muted);
+}
+
+.trust-item:hover {
+  border-color: rgba(214, 170, 82, 0.22);
 }
 
 .trust-icon,
@@ -167,17 +161,6 @@ body .product-card:focus-within {
   color: var(--ink);
   background: rgba(23, 26, 24, 0.8);
   border-color: rgba(214, 170, 82, 0.24);
-}
-
-.contact {
-  color: var(--ink);
-  background: linear-gradient(135deg, #4a2730, #201a29 58%, #0d0f0e 100%);
-}
-
-.contact .eyebrow,
-.contact h2 span,
-.contact > p:not(.eyebrow) {
-  color: var(--accent-soft);
 }
 
 .topline.construction-topline {
@@ -370,8 +353,6 @@ body .product-card:focus-within {
 }
 
 .values article {
-  background: linear-gradient(145deg, #202522, #111413 72%);
-  border: 1px solid var(--line);
   border-radius: var(--radius-sm);
   box-shadow: none;
 }
@@ -386,44 +367,19 @@ body .product-card:focus-within {
   color: var(--accent-ink);
 }
 
-.values article p {
-  color: var(--muted);
-}
-
-.how-it-works {
-  color: var(--ink);
-  background: linear-gradient(135deg, #171116, #33212b 62%, #20161d);
-}
-
 .step-card {
-  background: linear-gradient(145deg, #202522, #111413 72%);
-  border: 1px solid var(--line);
   border-radius: var(--radius-sm);
   -webkit-backdrop-filter: none;
   backdrop-filter: none;
 }
 
 .step-card:hover {
-  background: linear-gradient(145deg, #2b3522, #151914 72%);
   border-color: rgba(214, 170, 82, 0.42);
 }
 
 .step-number {
   color: var(--accent-ink);
   text-shadow: none;
-}
-
-.step-icon {
-  background: rgba(214, 170, 82, 0.14);
-}
-
-.step-card p {
-  color: var(--muted);
-}
-
-.contact {
-  color: var(--ink);
-  background: linear-gradient(135deg, #253019, #0d0f0e 70%);
 }
 
 .contact .eyebrow,
@@ -454,9 +410,9 @@ body .product-card:focus-within {
 .product-card {
   position: relative;
   overflow: hidden;
-  border: 1px solid rgba(245, 241, 232, 0.1);
+  border-width: 1px;
+  border-style: solid;
   border-radius: 12px;
-  background: linear-gradient(145deg, #332431 0%, #172426 58%, #0d1110 100%);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18), 0 18px 34px -14px rgba(0, 0, 0, 0.42);
   transition: transform var(--duration-med) var(--ease-out),
     border-color var(--duration-med), box-shadow var(--duration-med);
@@ -555,6 +511,9 @@ body .product-card:focus-within {
   color: #f5f1e8;
   font-size: 20px;
   font-weight: 700;
+  grid-column: 1;
+  grid-row: 1;
+  align-self: center;
 }
 
 .product-notes {
@@ -581,12 +540,6 @@ body .product-card:focus-within {
   border-color: rgba(245, 241, 232, 0.2);
   border-radius: 999px;
   color: rgba(245, 241, 232, 0.64);
-}
-
-.product-price {
-  grid-column: 1;
-  grid-row: 1;
-  align-self: center;
 }
 
 .size-list {
@@ -632,11 +585,7 @@ body .product-card:focus-within {
   box-shadow: 0 0 18px rgba(214, 170, 82, 0.2);
 }
 
-/* ==========================================
-   ESTILOS RESPONSIVOS (MÓVIL / PANTALLAS PEQUEÑAS)
-   ========================================== */
 @media (max-width: 600px) {
-  /* Tarjetas y Rejilla de Productos */
   .product-grid {
     gap: 14px;
   }
@@ -657,20 +606,6 @@ body .product-card:focus-within {
     font-size: 10px;
   }
 
-  .product-buy {
-    align-items: center;
-  }
-
-  .size-list {
-    margin-bottom: 0;
-  }
-
-  /* Sección Hero y Encabezado */
-  .hero-art {
-    width: 100%;
-  }
-
-  /* Detalles e Imágenes Hero */
   .hero-stage::before {
     background: linear-gradient(90deg, rgba(18, 14, 19, 0.55), transparent 75%);
   }
@@ -685,17 +620,5 @@ body .product-card:focus-within {
 
   .editorial-caption {
     background: rgba(17, 17, 17, 0.5);
-  }
-}
-
-/* Accesibilidad: Reducción de movimiento */
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    scroll-behavior: auto !important;
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
   }
 }
